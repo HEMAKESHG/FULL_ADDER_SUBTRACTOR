@@ -70,12 +70,25 @@ module proj_42(a,b,bin,borr,diff);
 input a,b,bin;
 output diff, borr;
 assign diff=(a^b^bin);
-assign borr=((!a&b)|(b&c)|(c&~a));
+assign borr=((~a&b)|(b&bin)|(bin&~a));
 endmodule
 ```
-**RTL Schematic**
+**RTL Schematic:**
 
-**Output Timing Waveform**
+#Full adder
+![Screenshot 2024-09-20 085244](https://github.com/user-attachments/assets/2620967d-fa0d-41b5-888f-8acd3c0fab94)
+
+#Full Subtractor
+![Screenshot 2024-09-20 090205](https://github.com/user-attachments/assets/6fa022d7-20a8-4cdb-97bb-85a3a7647ab5)
+
+
+**Output Timing Waveform:**
+
+#Full adder
+![Screenshot 2024-09-20 085620](https://github.com/user-attachments/assets/556f2548-5e68-4509-9104-a52a64f9958a)
+
+#Full Subtractor
+![Screenshot 2024-09-20 090314](https://github.com/user-attachments/assets/d8117206-3e7e-4cbb-9dc5-8ddcbbd52433)
 
 **Result:**
 
