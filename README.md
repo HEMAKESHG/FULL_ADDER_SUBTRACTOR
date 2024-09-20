@@ -47,8 +47,17 @@ Borrow out = A'Bin + A'B + BBin
 ![DE E-4 subtractor truth table](https://github.com/04Varsha/FULL_ADDER_SUBTRACTOR/assets/149035374/33d8ba16-9169-40b0-8696-3bb8e5c3a0b7)
 
 **Procedure**
-
-Write the detailed procedure here
+```
+1. Open Quartus Software   
+2. Create a New Project  
+3. Create a New Design File  
+4. Compile the Program  
+5. Generate RTL Schematic  
+6. Create Nodes for Inputs/Outputs  
+7. Generate Timing Diagram  
+8. Simulate Different Input Combinations  
+9. Save Your Work  
+```
 
 **Program:**
 
@@ -56,6 +65,7 @@ Write the detailed procedure here
 Developed by:Hemakesh G
 RegisterNumber: 212223040064
 ```
+
 ```
 #Full adder
 module proj_41(a,b,cin,sum,carry);
